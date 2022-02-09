@@ -9,11 +9,11 @@
 <body>
     <div>
         <h1>Cadastro de DEVs</h1>
-        <p>Informe seus dados</p>
         <br>        
     </div>
     <form>
         <fieldset>
+            <legend>Informe seus dados</legend>
             <div>
                 <label>Nome</label>
                 <input type="text" name="nome" id="nome">
@@ -26,6 +26,20 @@
         <div>
             <label>E-mail</label>
             <input type="email" name="email" id="email">
+        </div>
+
+        <div>
+            <label>De qual lado da aplicação você desenvolve?</label>
+            <br>
+            <label>
+                <input type="radio" name="devweb" value="frontend">Front-End
+            </label><br>
+            <label>
+                <input type="radio" name="devweb" value="backend">Back-End
+            </label><br>
+            <label>
+                <input type="radio" name="devweb" value="fullstack">Fullstack
+            </label><br>
         </div>
     </form>
 </body>
